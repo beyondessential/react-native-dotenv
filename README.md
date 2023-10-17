@@ -1,3 +1,6 @@
+Fork for Node 20 Support
+See https://github.com/goatandsheep/react-native-dotenv/pull/468
+
 # react-native-dotenv [![CircleCI](https://circleci.com/gh/goatandsheep/react-native-dotenv.svg?style=svg)](https://circleci.com/gh/goatandsheep/react-native-dotenv)
 
 > Load environment variables using `import` statements.
@@ -27,7 +30,7 @@ Many have been asking about the reasons behind recent changes in this repo. Plea
 
 ## Introduction
 
-This babel plugin lets you inject your environment variables into your Javascript environment using dotenv for multiple environments. It is best suited for use with react native and works with all flavors including web. 
+This babel plugin lets you inject your environment variables into your Javascript environment using dotenv for multiple environments. It is best suited for use with react native and works with all flavors including web.
 
 ## Usage
 
@@ -248,7 +251,7 @@ Add all of your .env variables inside this module.
   "compilerOptions": {
     ...
       "typeRoots": ["./src/types"],
-    ...  
+    ...
   }
 ...
 }
